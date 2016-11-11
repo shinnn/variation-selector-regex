@@ -1,0 +1,44 @@
+{
+  "name": "variation-selector-regex",
+  "version": "1.0.0",
+  "description": "Create a regular expression for Unicode variation selectors",
+  "repository": "shinnn/variation-selector-regex",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "prebuild": "eslint --fix --format=codeframe module.js test.js",
+    "build": "rollup --config=node:module",
+    "pretest": "npm run-script build",
+    "test": "node test.js"
+  },
+  "license": "MIT",
+  "module": "module.js",
+  "files": [
+    "LICENSES.md",
+    "index.js",
+    "module.js"
+  ],
+  "keywords": [
+    "regular-expression",
+    "regex",
+    "regexp",
+    "variation",
+    "variation-selector",
+    "variation-sequence",
+    "emoji",
+    "non-ascii",
+    "match",
+    "global",
+    "character",
+    "unicode"
+  ],
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^3.0.0",
+    "eslint": "^3.9.1",
+    "rollup": "^0.36.3",
+    "rollup-config-module": "^1.0.0",
+    "tape": "^4.6.2"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn/node"
+  }
+}

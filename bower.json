@@ -1,0 +1,35 @@
+{
+  "name": "variation-selector-regex",
+  "description": "Create a regular expression for Unicode variation selectors",
+  "keywords": [
+    "regular-expression",
+    "regex",
+    "regexp",
+    "variation",
+    "variation-selector",
+    "variation-sequence",
+    "emoji",
+    "non-ascii",
+    "match",
+    "global",
+    "character",
+    "unicode"
+  ],
+  "main": "module.js",
+  "moduleType": "es6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinnn/variation-selector-regex.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "node_modules"
+  ]
+}
